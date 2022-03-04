@@ -3,24 +3,31 @@
 	height: 10;
 }
 html{
-	background : url('https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-6/p843x403/272653891_1188541838219329_2255237287744230128_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=va__36aMsHgAX8QmACL&_nc_ht=scontent.fhan3-1.fna&oh=00_AT9Cst_mrbvW_wMFUiYN3KZ7UsJNr_kxd6myUq9F0oCJ9w&oe=6214DE71');
-}
-div{
- 	color: #fdcb6e;
- 	text-align: center;
-}
-input{
-	color: #e84393;
+	background : url('img/background1.png');
+	background-repeat: no-repeat;
+	background-size: 1800px;
 }
 h2{
 	color : #fab1a0 ;
-	font-family: monospace ;
+	font-family: arial ;
 	font-size: 40px;
 }
 .logo{
 	max-width: 40px;
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto;
-	padding-top : 5px
-}	
+	padding-top : 5px;
+}
+nav{
+	width :400px;
+	margin : 0 auto;
+	height :45px;
+	padding-top : 25px;
+}
+nav>div>ul{
+	list-style: none;
+}
+nav>div>ul>li{
+	float : left;
+	line-height: 35px;
+	padding : 0 30px
+}
+
